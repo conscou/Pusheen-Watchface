@@ -1,0 +1,29 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Constantina Scoullis",
+    "longName": "pusheen_watchface",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/PUSHEEN_WHITE.png",
+                "name": "PUSHEEN_WHITE",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "pusheen_watchface",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "351348e1-e9dd-4015-accc-1230173f5415",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}

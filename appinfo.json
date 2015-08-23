@@ -9,6 +9,11 @@
     "resources": {
         "media": [
             {
+                "file": "images/PUSHEEN_BLACK.png",
+                "name": "PUSHEEN_BLACK",
+                "type": "png"
+            },
+            {
                 "file": "images/PUSHEEN_WHITE.png",
                 "name": "PUSHEEN_WHITE",
                 "type": "png"

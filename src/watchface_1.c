@@ -90,31 +90,6 @@ static void init() {
   
   updatePusheen(pusheen_time);
   
-  
-   /* text_layer_set_background_color(time_layer, GColorBlack);
-    text_layer_set_text_color(time_layer, GColorWhite);
-    text_layer_set_text(time_layer, "00:00");
-
-  // improve the layout to be more like a watchface
-    text_layer_set_font(time_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));
-    text_layer_set_text_alignment(time_layer, GTextAlignmentCenter);
-
-  // add it as a child layer to the Window's root layer
-    layer_add_child(window_get_root_layer(main_window), text_layer_get_layer(time_layer));
-    
-  //set up pusheen picture
-    pusheen_bitmap = gbitmap_create_with_resource(RESOURCE_ID_PUSHEEN_WHITE);
-  //position image
-    pusheen_layer = bitmap_layer_create(GRect(0, 25, 144, 70));
-  //put bitmap and layer together
-    bitmap_layer_set_bitmap(pusheen_layer, pusheen_bitmap);
-  //add it to the parent
-    layer_add_child(window_get_root_layer(main_window), bitmap_layer_get_layer(pusheen_layer));
-
-  
-  window_set_background_color(main_window, GColorBlack);  //change background color of window*/
-
-  
   window_set_window_handlers(main_window, (WindowHandlers) {
   .load = main_window_load,
   .unload = main_window_unload
